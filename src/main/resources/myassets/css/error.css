@@ -1,0 +1,39 @@
+body {
+    background: #2c3e50;
+    color: #ecf0f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.error-container {
+    max-width: 500px;
+    margin: 100px auto;
+    background: #34495e;
+    border-radius: 10px;
+    padding: 40px 30px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #e74c3c;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

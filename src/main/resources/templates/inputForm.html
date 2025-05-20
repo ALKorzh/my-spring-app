@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Введите число</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<div class="container">
+    <h1>Введите число для умножения на 5</h1>
+
+    <div th:if="${error}" class="error-message">
+        <p th:text="${error}"></p>
+    </div>
+
+    <form action="#" th:action="@{/result}" method="post">
+        <input type="text" name="number" placeholder="Введите число" required />
+        <button type="submit">Умножить</button>
+    </form>
+</div>
+</body>
+</html>

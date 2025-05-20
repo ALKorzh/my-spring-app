@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Результат умножения</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<div class="container">
+    <h1>Результат умножения</h1>
+
+    <div class="result">
+        <p th:text="'Результат: ' + ${number} + ' × 5 = ' + ${result}"></p>
+    </div>
+
+    <a th:href="@{/multiply}" class="back-link">Вернуться назад</a>
+</div>
+</body>
+</html>
